@@ -1,0 +1,30 @@
+*{/* ОБОВЯЗКОВО НА КОЖНОМУ ПРОЕКТІ */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+table{
+    border-collapse: collapse;
+    margin: 0px auto;
+}
+table th,
+table td{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000;
+}
+tfoot th{
+    color: rgb(252, 0, 0);
+}
+tfoot td{
+    font-weight: bold;
+}
